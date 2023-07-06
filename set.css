@@ -1,0 +1,37 @@
+
+.maincolor{
+  background-image: url('../../images/dark-background-abstract-background-network-3d-background-6016x3384-8324.png');
+height: 110vh;
+width: 100%;
+}
+.inp{
+    outline: none;
+    border: none;
+    background-color: lightcyan;
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.inp::placeholder{
+    color:slategrey;
+    font-weight: 900;
+    text-align: center;
+
+}
+.apc{
+    color: red
+}
+.setpassword{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    background-color: rgba(0,0, 0, 0.1);
+}
+.setpassword:hover{
+    background-color: white;
+    color: red;
+
+    border-color: red;
+}

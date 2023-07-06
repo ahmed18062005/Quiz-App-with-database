@@ -1,0 +1,55 @@
+.main{
+  background-image: url("../../images/dark-background-abstract-background-network-3d-background-6016x3384-8324.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.deleteData{
+    margin-top: 10%;
+    color: white;
+
+}
+
+.deleterow{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+border: none;
+border-radius: 5px;
+color: white;
+}
+
+
+
+
+
+#btn2{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid white;
+    margin-bottom: 10%;
+    color: white;
+}
+#btn2:hover{
+ color: red;
+ border-color: red;
+ background-color: white;
+    
+}
+@media only screen and (max-width: 300px){
+
+ #main{
+width: 100%;
+
+    }
+    .deleterow{
+width: 95%;
+
+    }
+    .main{
+        height: 100vh;
+    }
+
+}
